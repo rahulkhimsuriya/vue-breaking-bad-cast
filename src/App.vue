@@ -1,14 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <h1 class="text-3xl font-semibold">Breaking Bad</h1>
+
+    <CharacterList></CharacterList>
   </div>
 </template>
 
 <script>
+import CharacterList from '@/components/CharacterList.vue'
+
 export default {
   name: 'App',
-  components: {}
+  components: { CharacterList }
 }
 </script>
 
