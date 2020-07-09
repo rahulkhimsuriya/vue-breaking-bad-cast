@@ -1,8 +1,12 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
+  <div id="app" class="min-h-screen bg-green-900">
+    <div class="inline-block flex item-center justify-center py-6">
+      <img class="w-40 h-auto" alt="Vue logo" src="./assets/image/logo.png" />
+    </div>
 
-    <CharacterList></CharacterList>
+    <div class="container mx-auto mt-8">
+      <CharacterList></CharacterList>
+    </div>
   </div>
 </template>
 

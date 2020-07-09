@@ -1,17 +1,21 @@
 <template>
-  <div>
-    <h3
+  <div class="flex flex-wrap justify-center md:justify-start">
+    <CharacterCard
       v-for="character in characters"
-      v-text="character.name"
+      :character="character"
       :key="character.char_id"
-    ></h3>
+    />
   </div>
 </template>
 
 <script>
 import axios from 'axios'
 
+import CharacterCard from '@/components/CharacterCard.vue'
+
 export default {
+  components: { CharacterCard },
+
   data() {
     return {
       characters: []
