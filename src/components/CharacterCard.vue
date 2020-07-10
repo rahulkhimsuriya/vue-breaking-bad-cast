@@ -3,6 +3,7 @@
     <div class="rounded overflow-hidden relative shadow-lg">
       <img
         class="w-full object-fit"
+        :class="{ 'opacity-75': isActive }"
         style="height:350px;"
         :src="character.img"
         :alt="character.nickname"
