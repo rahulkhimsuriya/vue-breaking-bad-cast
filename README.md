@@ -1,4 +1,5 @@
-# vue-breaking-bad
+# Breaking Bad Cast
+vue project that uses the [breaking bad api](https://breakingbadapi.com/documentation) to show and filter characters from the show
 
 ## Project setup
 ```
@@ -20,5 +21,4 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Thank you.
