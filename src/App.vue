@@ -4,7 +4,7 @@
       <img class="w-40 h-auto" alt="Vue logo" src="./assets/image/logo.png" />
     </div>
 
-    <div class="w-2/6 mx-auto mt-6 mb-10">
+    <div class="max-w-sm md:w-2/4 lg:w-2/5 w-full mx-auto mt-6 mb-10">
       <CharacterSearch @characterWasSearched="serachCharacter" />
     </div>
 
